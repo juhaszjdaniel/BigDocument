@@ -1,0 +1,6 @@
+[submodule "big-document-fe"]
+	path = big-document-fe
+	url = https://github.com/juhaszjdaniel/BigDocumentFE.git
+[submodule "big-document"]
+	path = big-document
+	url = https://github.com/juhaszjdaniel/BigDocumentBE.git

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    build: big-document
+    ports:
+      - 8080:8080
+    restart: always
+  frontend:
+    build: big-document-fe
+    links:
+      - backend
+    ports:
+      - 4200:80
+    restart: always
